@@ -1,4 +1,7 @@
+
 #### Initial Setup
+NOTE: This section serves only as a guide/reminder on how this project was started, so don't do it!!!
+
 Create a package.json file:
 
     npm init -y

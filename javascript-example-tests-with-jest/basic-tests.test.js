@@ -1,7 +1,11 @@
 /**
  * Basic Tests.
+ * 
+ * Check Docs:
+ * https://jestjs.io/docs/using-matchers
+ * https://github.com/sapegin/jest-cheat-sheet#matchers
  */
-const googleSearch = require('./script');
+const googleSearch = require('./basic-tests.js');
 
 dbMock = [
   'dog.com',

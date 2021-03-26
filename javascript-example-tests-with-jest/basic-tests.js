@@ -1,6 +1,3 @@
-/**
- * Basic Tests.
- */
 const googleDatabase = [
   'cats.com',
   'souprecipes.com',
