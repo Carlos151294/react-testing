@@ -64,3 +64,17 @@ describe('Test filterRobots method', () => {
     expect(wrapper3.instance().filterRobots()).toEqual([]);
   });
 });
+
+it('renders <h1> loading tag', () => {
+  const mockProps = {
+    robots: [],
+    searchField: '',
+    isPending: true,
+    onSearchChange: jest.fn(),
+    onRequestRobots: jest.fn()
+  };
+
+  const wrapper = shallow(<MainPage {...mockProps} />);
+
+  expect(wrapper.html()).toContain('<h1>Loading</h1>');
+});
